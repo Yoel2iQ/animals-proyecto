@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cabecera{
+    width: 100%;
+    height: 100px;
+    color: black;
+    text-align: center;
+    padding: 25px;
+    font-size: 30px;
+    font-family: "Open sans";
+    
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+p{
+    color:black;
+    font-size:30px;
+    text-align: center;
+}
+
+body{
+    height:400px;
+    background:linear-gradient(rgba(225, 225, 225, 0.0 ), rgba(225, 225, 225, 0.0 )), url(imagenes/menu.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+a:link,a:visited,a:hover,a:active{
+    color:black;
+    text-decoration: none;
+}
+
+table a img{
+    width: 300px;
+    height: 200px;
+    border: 5;
+}
+
+.botones{
+    text-align: center;
+    font-style: 20px;
+    color: black;
+    width: 50%;
+    height: 40px;
+    background-color: black;
+    margin: 50px;
+    padding: 10px;
+    margin-left: 25%;
+}
+
+.botones a{
+    padding: 65px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
